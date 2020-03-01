@@ -12,7 +12,7 @@ namespace cw1
         static async Task Main(string[] args)
         {
             var emails = await GetEmails(args[0]);
-
+            //
             foreach(var a in args)
             {
                 Console.WriteLine(a);
